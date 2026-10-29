@@ -1,0 +1,35 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+/source/*
+!/source/.gitkeep
+
+/tmp/
+/log/
+/storage/
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.aws/
+.ssh/
+credentials*.json
+*.pem
+*.key
+
+# Local temporary files and potentially private conversations
+*.log
+*.tmp
+*.swp
+*~
+/conversations/
+/private/
